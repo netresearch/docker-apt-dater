@@ -57,6 +57,12 @@ Copy hosts.d/host.xml.example to hosts.d/yourhost.xml and modify it to your need
 You can have multiple hosts.d/<yourhost>.xml files, the container entrypoint script
 will merge them.
 
+hosts.d/host.xml example::
+    
+    <group name="Internal Hosts">
+        <host name="server1.internal" ssh-user="apt-dater"/>
+    </group>
+
 
 Add SSH key
 ...........
