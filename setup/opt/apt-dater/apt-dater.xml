@@ -98,6 +98,9 @@
         enabled="true"/>
     -->
 
+    <auto-ref
+        enabled="false"/>
+
     <!--
         Requires apt-dater to be build with enable-history.
 
