@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hosts SYSTEM "file:///usr/share/xml/schema/apt-dater/hosts.dtd">
+<hosts xmlns:xi="http://www.w3.org/2001/XInclude">
+
