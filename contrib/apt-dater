@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+# replacement for orignal apt-dater script, redriects calls to apt-dater to container
+# replace cd folder with your actual installation folder of apt-dater container docker-compose.yml file
+cd /etc/docker-compose/apt-dater
+docker-compose run apt-dater "$@"
