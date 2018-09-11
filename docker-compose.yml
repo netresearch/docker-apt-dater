@@ -7,3 +7,5 @@ services:
         volumes:
             - ~/.ssh/id_rsa:/opt/apt-dater/id_rsa1
             - ./hosts.d:/opt/apt-dater/hosts.d
+            - ./history:/opt/apt-dater/history
+            - ./stats:/opt/apt-dater/stats
