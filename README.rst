@@ -83,6 +83,14 @@ Start apt-dater container with Docker::
         -v `realpath ./hosts.d`:/opt/apt-dater/hosts.d \ # mount apt-dater hosts configuration
         netresearch/apt-dater
 
+
+Wrapper for apt-dater CLI command
+---------------------------------
+
+In contrib/ you find a simple shell script which can be used as a wrapper for
+apt-dater CLI command, just place it in /usr/bin and modify the path in the script.
+
+
 Known issues
 ------------
 
