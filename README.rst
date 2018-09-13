@@ -21,17 +21,17 @@ Use docker-compose to start apt-dater container:
 
 Start apt-dater TUI::
     
-    docker-composer run --rm apt-dater
+    docker-compose run --rm apt-dater
 
 
 Just update hosts and print result as XML::
     
-    docker-composer run --rm apt-dater -r
+    docker-compose run --rm apt-dater -r
 
 
 Print apt-dater help screen::
     
-    docker-composer run --rm apt-dater -h
+    docker-compose run --rm apt-dater -h
 
 
 Configuration
