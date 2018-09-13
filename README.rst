@@ -83,3 +83,8 @@ Start apt-dater container with Docker::
         -v `realpath ./hosts.d`:/opt/apt-dater/hosts.d \ # mount apt-dater hosts configuration
         netresearch/apt-dater
 
+Known issues
+------------
+
+- auto-refresh is disabled, it caused hosts to disappear in apt-dater host list
+
