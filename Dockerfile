@@ -13,7 +13,7 @@ RUN set -ex \
  && apt-get update \
  && apt-get upgrade --yes -o Dpkg::Options::="--force-confnew" -o Dpkg::Options::="--force-all" --no-install-recommends --purge --auto-remove \
  && apt-get install --yes -o Dpkg::Options::="--force-confnew" --no-install-recommends --purge --auto-remove \
-    apt-dater \
+    apt-dater less \
  && apt-get autoremove \
  && apt-get clean -y \
  && rm -rf /tmp/* \
