@@ -17,6 +17,13 @@ For general apt-dater usage or preparation of hosts please see apt-dater manual.
 Usage
 -----
 
+You can prepare a host folder with example files if you like::
+    
+    docker run -v `pwd`:/var/apt-dater-init netresearch/apt-dater init
+
+
+This will copy example docker-compose.yml and hosts.xml and README to your current folder.
+
 Use docker-compose to start apt-dater container:
 
 Start apt-dater TUI::

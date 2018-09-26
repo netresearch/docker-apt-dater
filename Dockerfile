@@ -28,5 +28,9 @@ RUN set -ex \
 VOLUME /opt/apt-dater
 
 ADD setup/ / 
+ADD docker-compose.yml /var/apt-dater-example/
+ADD README.rst /var/apt-dater-example/
+ADD hosts.d/host.xml.example /var/apt-dater-example/hosts.d/example.xml
+ADD contrib/apt-dater /var/apt-dater-example/apt-dater
 
 ENTRYPOINT ["/entrypoint.sh"]
